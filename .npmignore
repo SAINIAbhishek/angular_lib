@@ -1,0 +1,5 @@
+.idea/
+.npmrc
+.gitignore
+*.css.map
+/node_modules
