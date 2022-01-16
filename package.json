@@ -9,7 +9,8 @@
     "lint": "test-modal/node_modules/.bin/ng lint",
     "e2e": "test-modal/node_modules/.bin/ng e2e",
     "build:lib": "ng-packagr -p lib/package.json",
-    "test:lib": "npm i lib/dist"
+    "test:lib": "npm i lib/dist",
+    "publish": "npm publish lib/dist"
   },
   "dependencies": {
     "@angular/animations": "~9.1.13",
