@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {CardModule, ModalModule} from "test-modal_v2";
-
 
 @NgModule({
   declarations: [
@@ -12,9 +10,7 @@ import {CardModule, ModalModule} from "test-modal_v2";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    ModalModule,
-    CardModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -13,8 +13,9 @@
     "publish": "npm run build:lib && npm run test:lib && npm publish lib/dist",
     "build:library": "ng build test-library",
     "pack:library": "cd dist/test-library && npm pack",
-    "test:library": "npm run build:library && npm run pack:library && npm i dist/test-library",
-    "publish:library": "npm run build:library && npm run pack:library && npm publish dist/test-library"
+    "test:library": "npm run build:library && npm run pack:library && npm i dist/test-library/test-library_v1-0.0.1.tgz",
+    "publish:package": "npm publish dist/test-library/test-library_v1-1.0.0.tgz",
+    "publish:library": "npm run build:library && npm run pack:library && npm run publish:package"
   },
   "dependencies": {
     "@angular/animations": "~9.1.13",
@@ -26,6 +27,7 @@
     "@angular/platform-browser-dynamic": "~9.1.13",
     "@angular/router": "~9.1.13",
     "rxjs": "~6.5.4",
+    "test-library_v1": "file:dist/test-library/test-library_v1-0.0.1.tgz",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
