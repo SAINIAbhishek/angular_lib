@@ -10,7 +10,7 @@
     "e2e": "test-modal/node_modules/.bin/ng e2e",
     "build:lib": "ng-packagr -p lib/package.json",
     "test:lib": "npm i lib/dist",
-    "publish": "npm publish lib/dist"
+    "publish": "npm run build:lib && npm run test:lib && npm publish lib/dist"
   },
   "dependencies": {
     "@angular/animations": "~9.1.13",
@@ -23,6 +23,7 @@
     "@angular/router": "~9.1.13",
     "@test/test-modal": "file:lib/dist",
     "rxjs": "~6.5.4",
+    "test-modal_v2": "file:lib/dist",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
