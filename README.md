@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.15.
 
+## Package path:
+https://www.npmjs.com/package/test-library_v1
+
 ## To build & publish library with ng-packagr
 In this I've created the lib folder and their I have added the package.json and public-api.ts file.
 <br>
