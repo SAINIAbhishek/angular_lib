@@ -7,7 +7,8 @@
     "build": "test-modal/node_modules/.bin/ng build",
     "test": "test-modal/node_modules/.bin/ng test",
     "lint": "test-modal/node_modules/.bin/ng lint",
-    "e2e": "test-modal/node_modules/.bin/ng e2e"
+    "e2e": "test-modal/node_modules/.bin/ng e2e",
+    "build:lib": "ng-packagr -p lib/package.json"
   },
   "dependencies": {
     "@angular/animations": "~9.1.13",
@@ -26,9 +27,9 @@
     "@angular-devkit/build-angular": "~0.901.15",
     "@angular/cli": "~9.1.15",
     "@angular/compiler-cli": "~9.1.13",
-    "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -37,6 +38,7 @@
     "karma-coverage-istanbul-reporter": "~2.1.0",
     "karma-jasmine": "~3.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
+    "ng-packagr": "^9.1.5",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",

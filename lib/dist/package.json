@@ -1,0 +1,21 @@
+{
+  "name": "@test/test-modal",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "~9.1.13",
+    "@angular/core": "~9.1.13"
+  },
+  "main": "bundles/test-test-modal.umd.js",
+  "module": "fesm5/test-test-modal.js",
+  "es2015": "fesm2015/test-test-modal.js",
+  "esm5": "esm5/test-test-modal.js",
+  "esm2015": "esm2015/test-test-modal.js",
+  "fesm5": "fesm5/test-test-modal.js",
+  "fesm2015": "fesm2015/test-test-modal.js",
+  "typings": "test-test-modal.d.ts",
+  "metadata": "test-test-modal.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}
