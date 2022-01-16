@@ -3,3 +3,4 @@
 .gitignore
 *.css.map
 /node_modules
+/lib/dist

@@ -1,7 +1,7 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 
 @Component({
-  selector: 'app-modal',
+  selector: 'test-modal',
   templateUrl: './modal.component.html',
   styleUrls: ['./modal.component.scss']
 })
